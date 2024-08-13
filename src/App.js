@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello World!</h1>
+      <Counter />
     </div>
   );
 }
